@@ -25,7 +25,9 @@ dictGene = {'Dicarboxylic aminoaciduria : ': 'SLC1A1',
             'Dent\'s disease, type I : ': 'CLCN5',
             'Glycinuria : ': 'SLC6A18',
             'Congenital nephrotic syndrome of the Finnish type -> nephrin : ': 'NPHS1',
-            'Steroid-resistant Nephrotic syndrome -> podocin : ': 'NPHS2'
+            'Steroid-resistant Nephrotic syndrome -> podocin : ': 'NPHS2',
+            'Sclerosteosis and it\'t milder variant, van Buchem\'s disease: ': 'SOST',
+
             }
 
 
@@ -36,10 +38,13 @@ def list_all_disease():
 
 def create_exam_paper():
     exam_paper = set()
+# 將exam_paper設成set
     for key, value in dictGene.items():
         while len(exam_paper)<10:
             exam_paper.add(random.choice(list(dictGene.items())))
+# 隨機從dictGene中取一套（key和value）並且轉換成list再加入exam_paper中，重覆做十次
     exam_paper_dict = dict(exam_paper)
+# 將exam_paper從set再轉換成dict並且付值給exam_paper_dict
     return exam_paper_dict
 
 
