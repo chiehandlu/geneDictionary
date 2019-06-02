@@ -27,6 +27,12 @@ dictGene = {'Dicarboxylic aminoaciduria : ': 'SLC1A1',
             'Congenital nephrotic syndrome of the Finnish type -> nephrin : ': 'NPHS1',
             'Steroid-resistant Nephrotic syndrome -> podocin : ': 'NPHS2',
             'Sclerosteosis and it\'t milder variant, van Buchem\'s disease: ': 'SOST',
+            'Isolated(nonsyndromic) diffuse mesangial sclerosis: ': 'PLCE1',
+            'Hereditary hypophosphatemic rickets with hyperclaciuria: ': 'SLC34A3',
+            'Autosomal recessive renal phosphate wasting: ': 'SLC34A1',
+            'Autosomal recessive hypophosphatemic rickets (ARHR): ': 'DMP1&ENPP1',
+            'Autosomal dominant hypophosphatemic rickets (ADHR): ': 'FGF23',
+            'X-linked hypophosphatemia (XLH): ': 'PHEX',
 
             }
 
